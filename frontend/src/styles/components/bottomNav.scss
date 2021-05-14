@@ -1,0 +1,39 @@
+.bottomNav {
+  width: 100%;
+
+  position: fixed;
+  bottom: 0;
+  padding: 0.5em 0;
+  background-color: white;
+
+  div {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .notificationButton {
+      position: relative;
+
+      div {
+        background-color: #d32f2f;
+        border-radius: 50%;
+        position: absolute;
+        left: 15px;
+        top: -4px;
+        p {
+          margin: 0;
+          padding: 0.2em;
+          font-size: 0.6rem;
+          font-family: "Roboto";
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
+    img {
+      cursor: pointer;
+    }
+  }
+}

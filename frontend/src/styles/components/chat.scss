@@ -1,0 +1,12 @@
+@use "../color.scss" as color;
+
+.chat{
+    width: 85%;
+    margin: auto;
+    max-width: 400px;
+    h1{
+        font-size: 1.8rem;
+        font-family: "Poppins";
+        color:color.$dark
+    }
+}

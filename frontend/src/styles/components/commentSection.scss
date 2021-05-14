@@ -1,0 +1,33 @@
+.commentPage {
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  .commentArea {
+    margin-bottom: 6rem;
+    .commentItem {
+      margin: 1.2em 0;
+      padding: 0.3em 0.6em;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+      border-radius: 8px;
+      div {
+        display: flex;
+        align-items: center;
+        img {
+          border-radius: 50%;
+        }
+        p {
+          font-family: "Poppins";
+          font-size: 0.9rem;
+          margin-left: 0.5em;
+        }
+      }
+      h3 {
+        margin: 0;
+        font-family: "Roboto";
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@use "./styles/default";
+
+// layout
+@use "./styles/layout/container.scss";
+@use "./styles/layout/postition.scss";
+@use "./styles/layout/margin.scss";
+
+// components
+@use "./styles/components/inputfield.scss";
+@use "./styles/components/button.scss";
+@use "./styles/components/textStyle.scss";
+@use "./styles/components/notificationBar.scss";
+@use "./styles/components/imageUpload.scss";
+@use "./styles/components/bottomNav.scss";
+@use "./styles/components/upperNav.scss";
+@use "./styles/components/card.scss";
+@use "./styles/components/search.scss";
+@use "./styles/components/account.scss";
+@use "./styles/components/Home.scss";
+@use "./styles/components/chat.scss";
+@use "./styles/components/Person.scss";
+@use "./styles/components/personalChat.scss";
+@use "./styles/components/notification.scss";
+@use "./styles/components/commentSection.scss";
+@use "./styles/components/progessBar.scss";
+@use "./styles/components/post.scss";
+@use "./styles/components/settings.scss";

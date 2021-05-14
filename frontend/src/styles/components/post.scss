@@ -1,0 +1,42 @@
+@use "../color.scss" as color;
+
+.post {
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .postImageUpload {
+    border-radius: 5px;
+  }
+  textarea {
+    margin-top: 0.8em;
+    font-size: 0.8rem;
+    font-family: "Poppins";
+    resize: none;
+    max-width: 500px;
+    height: 250px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.8em;
+    border: 2px solid color.$lighter-gray;
+    color: color.$light-gray;
+    margin-bottom: 1.2em;
+  }
+  textarea:focus {
+    outline: none;
+  }
+
+  button {
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    padding: 0.2em 1.8em;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #7c4dff;
+  }
+}

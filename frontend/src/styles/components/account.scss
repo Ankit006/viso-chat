@@ -1,0 +1,26 @@
+@use "../color.scss" as color;
+.account {
+  max-width: 500px;
+  width: 90%;
+  font-family: "Poppins";
+  margin-left: auto;
+  margin-right: auto;
+}
+.userInfo {
+  margin-top: 0.8em;
+  display: flex;
+  flex-direction: column;
+  .user-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div {
+      h2 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

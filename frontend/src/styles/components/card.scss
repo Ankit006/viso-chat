@@ -1,0 +1,44 @@
+@use "../color.scss" as color;
+.card-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+  font-family: "Poppins";
+  margin-bottom: 1.8rem;
+
+  //   first div
+  .user {
+    * {
+      cursor: pointer;
+    }
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    img {
+      border-radius: 50%;
+    }
+    p {
+      margin-left: 0.5em;
+    }
+    margin-bottom: 5px;
+  }
+
+  // second div
+  .userPost {
+    img {
+      width: 100%;
+    }
+  }
+
+  //third div
+  .commentSection {
+    * {
+      cursor: pointer;
+    }
+    img:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+}

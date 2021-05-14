@@ -1,0 +1,30 @@
+@use "../color.scss" as color;
+
+@mixin textStyle($font, $color, $fontWeight, $fontSize, $margin) {
+  font-family: $font;
+  color: $color;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  margin-top: $margin;
+  margin-bottom: $margin;
+}
+
+.authHeading {
+  @include textStyle("Poppins", color.$violet, 500, 2.4rem, 0.2em);
+}
+
+.para-1-light {
+  @include textStyle("Poppins", color.$light-gray, 500, 1rem, 1em);
+}
+
+.linkLine-primary {
+  @include textStyle("Poppins", color.$violet, 500, 1.3rem, 0);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.error-text {
+  font-family: "Poppins";
+  margin: 0.2em;
+  color: color.$red;
+}
